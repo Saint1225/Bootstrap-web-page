@@ -4,7 +4,7 @@ Bootstrap web page with Skrollr feature
 
 HTML(pug) with Bootstrap / CSS(SASS) / JavaScript(skrollr)
 
-CodePen URL: https://codepen.io/vincent1225/full/xxZWRYd
+CodePen URL: https://codepen.io/vincent1225/full/yLeveVG
 
 
 ## Snapshot
