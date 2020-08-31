@@ -1,0 +1,120 @@
+$color_orange: #ff613a
+
+*
+  // border: solid 1px grey
+  font-family: 'Noto Sans TC', sans-serif
+  // disable
+  // header
+  //   display: none
+  // section
+  //   display: none
+  // footer
+  //   display: block
+  
+body
+  height: 1000px
+
+h1, h2, h3, h4, h5, h5, .h1, .h2, .h3, .h4, .h5, .h6
+  font-weight: 700
+
+nav.navbar
+  transition: 0.5s
+nav.navbar.fixed-top.navbar-expand-md.navbar-top
+  background-color: transparent
+  a
+    color: #fff
+    transition: 0.5s
+    &:hover
+      color: $color_orange
+section
+  padding: 50px 0px
+  
+header.jumbotron
+  margin-bottom: 0px
+  text-align: center
+  background-image: url(http://mmbiz.qpic.cn/mmbiz/5feXIiajDItf8T2YZoxCuVrhFMrVibfeZ8KGD7No9nL7bCUtpviblEmIia4okbL7aHqTNdGd4zWmcO83WfxVNZvibbg/0?wx_fmt=jpeg)
+  background-size: cover
+  background-attachment: fixed
+  .container
+    color: #fff
+    padding: 200px 0px
+    hr
+      max-width: 50px
+      border: solid 2px $color_orange
+    h4
+      color: rgba(white, 0.5)
+      font-weight: normal
+
+section#section_ask
+  background-color: $color_orange
+  .col-sm-5.img
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/minioasis/2016-05-16/gutenbergs_apprentice.jpg)
+    height: 350px
+    mix-blend-mode: multiply
+  h2
+    margin-top: 130px
+    padding: 0px 20px
+
+section#section_about
+  .img_wrap
+    height: 200px
+    overflow: hidden
+    img
+      width: 160%
+      
+section#section_story
+  background-color: #222
+  color: #fff
+  padding: 0
+  .col-sm-5
+    .cross
+      position: absolute
+      left: 22%
+      top: 30%
+      color: red
+      font-size: 30px
+      font-weight: bold
+    background-image: url(https://stutzfamily.com/mrstutz/Maps/USHistory/europe1938.gif)
+    background-size: 100% auto
+    height: 400px
+  .col-sm-7
+    text-align: center
+    i
+      font-size: 40px
+    .col-sm-12.features
+      margin-top: 30px
+      margin-bottom: 30px
+section#section_future
+  img
+    width: 100%
+  i
+    font-size: 30px
+  .feature
+    padding-bottom: 20px
+    display: inline-block
+  
+footer.jumbotron
+  margin-bottom: 0px
+  text-align: center
+  background-image: url(http://mmbiz.qpic.cn/mmbiz/5feXIiajDItf8T2YZoxCuVrhFMrVibfeZ8KGD7No9nL7bCUtpviblEmIia4okbL7aHqTNdGd4zWmcO83WfxVNZvibbg/0?wx_fmt=jpeg)
+  background-size: cover
+  background-attachment: fixed
+  input
+    background-color: transparent
+    max-width: 400px
+    margin-left: auto
+    margin-right: auto
+  .container
+    color: #fff
+    padding: 100px 0px
+    hr
+      max-width: 50px
+      border: solid 2px $color_orange
+    h4
+      color: rgba(white, 0.5)
+      font-weight: normal
+    button
+      background-color: #fff
+      &:hover
+        color: #fff
+        background-color: #333

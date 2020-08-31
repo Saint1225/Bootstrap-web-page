@@ -1,0 +1,144 @@
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h5, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 700;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a {
+  color: #fff;
+  transition: 0.5s;
+}
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a:hover {
+  color: #ff613a;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(http://mmbiz.qpic.cn/mmbiz/5feXIiajDItf8T2YZoxCuVrhFMrVibfeZ8KGD7No9nL7bCUtpviblEmIia4okbL7aHqTNdGd4zWmcO83WfxVNZvibbg/0?wx_fmt=jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: #fff;
+  padding: 200px 0px;
+}
+header.jumbotron .container hr {
+  max-width: 50px;
+  border: solid 2px #ff613a;
+}
+header.jumbotron .container h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+section#section_ask {
+  background-color: #ff613a;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://s3-ap-southeast-1.amazonaws.com/minioasis/2016-05-16/gutenbergs_apprentice.jpg);
+  height: 350px;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about .img_wrap {
+  height: 200px;
+  overflow: hidden;
+}
+section#section_about .img_wrap img {
+  width: 160%;
+}
+
+section#section_story {
+  background-color: #222;
+  color: #fff;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://stutzfamily.com/mrstutz/Maps/USHistory/europe1938.gif);
+  background-size: 100% auto;
+  height: 400px;
+}
+section#section_story .col-sm-5 .cross {
+  position: absolute;
+  left: 22%;
+  top: 30%;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-7 .col-sm-12.features {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section#section_future img {
+  width: 100%;
+}
+section#section_future i {
+  font-size: 30px;
+}
+section#section_future .feature {
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+footer.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(http://mmbiz.qpic.cn/mmbiz/5feXIiajDItf8T2YZoxCuVrhFMrVibfeZ8KGD7No9nL7bCUtpviblEmIia4okbL7aHqTNdGd4zWmcO83WfxVNZvibbg/0?wx_fmt=jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: #fff;
+  padding: 100px 0px;
+}
+footer.jumbotron .container hr {
+  max-width: 50px;
+  border: solid 2px #ff613a;
+}
+footer.jumbotron .container h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+footer.jumbotron .container button {
+  background-color: #fff;
+}
+footer.jumbotron .container button:hover {
+  color: #fff;
+  background-color: #333;
+}
