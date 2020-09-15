@@ -1,8 +1,8 @@
 # Bootstrap-web-page
 
-Bootstrap web page with Skrollr feature
+Bootstrap web page with scroll feature
 
-HTML(pug) with Bootstrap / CSS(SASS) / JavaScript(skrollr)
+HTML(pug) with Bootstrap / CSS(SASS) / JavaScript(jQuery)
 
 CodePen URL: https://codepen.io/vincent1225/full/yLeveVG
 
